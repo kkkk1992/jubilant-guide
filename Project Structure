@@ -1,0 +1,21 @@
+NrgSecureApp/
+├── app/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── cpp/
+│   │   │   │   ├── Security/
+│   │   │   │   │   ├── Strings.h
+│   │   │   │   │   ├── SignatureCheck.cpp
+│   │   │   │   │   └── JNICache.h
+│   │   │   │   ├── native-lib.cpp
+│   │   │   │   └── CMakeLists.txt
+│   │   │   ├── java/
+│   │   │   │   └── com/
+│   │   │   │       └── NrgEngineOfficial/
+│   │   │   │           └── LauncherActivity.java
+│   │   │   └── res/
+│   │   │       ├── layout/
+│   │   │       │   └── activity_main.xml
+│   │   │       └── values/
+│   │   │           └── strings.xml
+└── build.gradle
